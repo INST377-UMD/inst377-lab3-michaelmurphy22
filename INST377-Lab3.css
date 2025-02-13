@@ -1,0 +1,91 @@
+body {
+    background-color: beige
+}
+
+#bar {
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    clear: both;
+}
+
+#main-nav {
+    background-color: red;
+    text-align: left;
+    text-decoration: none;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+#main-nav li:hover {
+    background-color: white;
+    color: white;
+}
+
+
+#main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: blue;
+    float: left;
+    padding: 0;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-container {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 2px;
+    width: 98%;
+}
+
+.content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+}
+
+.content-box {
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#rules {
+    text-align: left;
+    background-color: lightblue;
+    float: right;
+    width: 25%;
+    margin-right: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#rules:hover {
+    background-color: blue;
+}
+
+#name:focus {
+    width:250px;
+}
